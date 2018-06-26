@@ -1,0 +1,16 @@
+{
+  "name": "@machinomy/types-prompt",
+  "version": "0.0.1",
+  "description": "TypeScript declarations for prompt package",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/machinomy/types-prompt.git"
+  },
+  "author": "Machinomy Team <machinomy.com>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/machinomy/types-prompt/issues"
+  },
+  "homepage": "https://github.com/machinomy/types-prompt#readme"
+}
