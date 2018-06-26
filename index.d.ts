@@ -1,14 +1,14 @@
 declare module 'prompt' {
   namespace PromptNS {
-    class Prompt {
-      start (): void
-      pause (): void
-      stop (): void
-      resume (): void
-      history (search: Number | string): Object
-      get (schema: Array | Object | string, callback: Function): Object
-    }
+    let message: string = 'prompt'
+    let colors: boolean = true
 
+    function start (): void
+    function pause (): void
+    function stop (): void
+    function resume (): void
+    function history (search: Number | string): Object
+    function get<T> (schema: Array | Object | string, callback: (err: Error, result: T) => void): Object
   }
 
   export = PromptNS
